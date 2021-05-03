@@ -37,21 +37,25 @@
   padding: 0;
 }
 
-#port-title {
-  font-family: 'Bebas Neue';
-  font-size: 3vw;
-  letter-spacing: 10px;
-//  margin-left: 1.5vw;
-  color: #f2f2f2;
-}
 
 h1 {
   font-family: 'Bebas Neue';
-  font-size: 2vw;
-  letter-spacing: 0.5vw;
- // margin-left: 2vw;
-  padding-top: 1vh;
+  font-size: 4vw;
   color: #f2f2f2;
+  letter-spacing: 0.2vw;
+ // margin-left: 2vw;
+  padding-top: vh;
+  
+  @media only screen and (min-width: 900px){
+        font-size: 3vw;
+        letter-spacing: 0.5vw;
+        padding-top: 1vh;
+        }
+  @media only screen and (min-width: 1400px){
+        font-size: 2vw;
+        letter-spacing: 0.5vw;
+        padding-top: 2.5vh;
+        }      
   
 }
 
@@ -76,19 +80,30 @@ h2 {
   // padding: 30px;
   position: fixed;
   right: 1.5vw;
-  top: 3vh;
-  
+  top: 2vh;
+  @media only screen and (min-width: 900px){
+        top: 3vh;
+        }
+  @media only screen and (min-width: 1400px){
+        top: 3.5vh;
+        }
 
   a {
     color: #2c3e50;
     text-decoration:none;
     font-family: 'Bebas Neue';
-    font-size: 1.5vw;
-    color:#f4f4f4;
+    font-size: 4vw;
+    color: #f4f4f4;;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #42b983;  
     }
+    @media only screen and (min-width: 900px){
+        font-size: 2vw;
+        }
+    @media only screen and (min-width: 1400px){
+        font-size: 1.5vw;
+        }    
   }
 }
 

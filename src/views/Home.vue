@@ -19,24 +19,39 @@
     margin-top: 2vh;
     margin-left: 2vw;
     margin-right: 2vw;
-    margin-top: 1.5vh;
     
-    .logo-frontpage {
-      margin-top: 2vh;
-      height: 0.7vh;
-      width: 0.7vh;
+    
+    #logo-frontpage {
+    //  height: 0.3vh;
+      width: 2vw;
+      margin-right: 2vw;
+      margin-top: 0.75vh;
+      @media only screen and (min-width: 900px){
+        width: 1.5vw;
+        margin-left: vw;
+        margin-right: vw;
+        margin-top: 2vh;
+        }
+       @media only screen and (min-width: 1400px){
+        width: 1vw;
+        margin-left: vw;
+        margin-right: vw;
+        margin-top: 3.5vh;
+        }
+    }
+    #port-title {
+    font-family: 'Bebas Neue';
+    font-size: 4vw;
+    letter-spacing: 2px;
+    color: #f2f2f2;
+    //margin-top: 1.5vh;
+    @media only screen and (min-width: 1400px){
+        letter-spacing: 10px;
+        }
     }
   }
 
-  @media only screen and (min-width: 1400px){
-  #logo-frontpage{
-    height:3vh;
-    width: 3vh;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    margin-top: 2vh;
-  }
-}
+ 
 
 
 
