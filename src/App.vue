@@ -37,6 +37,12 @@
   padding: 0;
 }
 
+    .desc {
+        margin-left: 5vw;
+        margin-right: 7vw;
+        text-align: justify;
+        color: gray;
+     }
 
 h1 {
   font-family: 'Bebas Neue';
@@ -62,7 +68,7 @@ h1 {
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  margin-left: 7vw;
+  margin-left: 5vw;
   margin-bottom: 1vh;
   color: #f4f4f4;
   margin-top: 2vh;
@@ -133,12 +139,12 @@ $time-4: 200s;
 
 
 #page-bg, .animation-wrapper {
-//  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 0;
+  z-index: 1;
 }
 
 // #page-bg {

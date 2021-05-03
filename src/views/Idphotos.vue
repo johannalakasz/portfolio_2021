@@ -26,12 +26,6 @@
 </template>
 
 <style lang="scss">
-    .desc {
-        margin-left: 7vw;
-        margin-right: 7vw;
-        text-align: justify;
-        color: gray;
-     }
 
     #id-collage {
       display: flex;
