@@ -123,24 +123,25 @@ $time-4: 200s;
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 0;
 }
 
-#page-bg {
+// #page-bg {
  // background: $color-bg;
  // background-blend-mode: screen;
 //  background-size: cover;
  // filter: grayscale(100%);
- z-index: -1;
-}
+ 
+//}
 
 .particle, .particle:after {
   background: transparent;
 }
 
 .particle:after {
-  position: absolute;
+  position: fixed;
   content: "";
-  top: $spacing;
+ // top: $spacing;
 }
 
 .particle-1 {
