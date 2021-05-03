@@ -5,7 +5,7 @@
       <router-link to="/">
         <img id="logo-frontpage" src="../assets/logo.png" alt="logo">
     </router-link>
-      <h1>Poetry zine</h1>
+      <h1>Poetry zinesssss</h1>
     </div>
 
 
