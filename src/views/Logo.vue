@@ -12,7 +12,7 @@
  </div>
  <h3>Research</h3>
  <div id="logo-container">
-        <img id="logo-research" src="../assets/logo/logo_res.png" alt="logo research">
+        <img id="logo-research" src="../assets/logo/logo-res.png" alt="logo research">
 </div>
 <h3>Sketching</h3>
 <div id="sketch-container">

@@ -6,9 +6,25 @@
     <router-link to="/">
         <img id="logo-frontpage" src="../assets/logo.png" alt="logo">
     </router-link>
-    
       <a id="port-title">Johanna Lakasz portfolio</a>
     </div>
+
+    <div id="firstrow">
+      <div id="home1">
+        <img id="plantpack" src="../assets/home/plant.jpg" alt="package design">
+        <img id="zineproject" src="../assets/home/crying.jpg" alt="zine project">
+      </div>
+      <div id="home2">
+        <img id="homeillus" src="../assets/home/anotherkind.jpg" alt="illustration">
+        <img id="shoot" src="../assets/home/luksi.jpg" alt="photoshoot">
+      </div>
+      <div id="home3">
+        <img id="jelcorset" src="../assets/home/corset3.jpg" alt="corset design">
+        <img id="logodesign" src="../assets/home/idea_final.png" alt="logo design">
+      </div>
+    </div>
+
+
   </div>
 </template>
 

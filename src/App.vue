@@ -67,7 +67,8 @@ h1 {
 }
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Domus', Arial, Helvetica, sans-serif;
+  font-weight: 500;
   font-size: 20px;
   margin-left: 5vw;
   margin-bottom: 1vh;
@@ -76,7 +77,8 @@ h2 {
 }
 
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Domus', Arial, Helvetica, sans-serif;
+  font-weight: 500;
   font-size: 20px;
   margin-left: 5vw;
   margin-bottom: 1vh;
@@ -92,6 +94,17 @@ h3 {
 //  flex-direction: row-reverse;
 //  padding: 20px;
 // }
+
+a {
+  color: #2c3e50;
+  font-weight: 500; 
+  letter-spacing: 2px; 
+  text-decoration: none;
+  :hover {
+    color: #f2f2f2;
+  
+  }
+}
 
 #nav {
   // padding: 30px;
