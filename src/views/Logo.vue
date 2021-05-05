@@ -1,0 +1,78 @@
+<template>
+    <div class="logo">
+        <div class="top-container">
+            <router-link to="/">
+                <img id="logo-frontpage" src="../assets/logo.png" alt="logo">
+                </router-link>
+            <h1>Logo design</h1>
+        </div>
+        <h2>Project description</h2>
+    <div class='logo-desc'>Idea house is a student start-up at EASV responsible for helping students starting their own company. Students can go on an internship there focusing on entrepreneurship. The internship lasts 10-12 weeks and consists of a structured program with a range of activities that help students build their business foundation.
+<br><br>For this assignment we were required to reimagine the logo of Idea House in a way where the connection between EASV and the start-up is emphasized more than as of with the current logo.
+ </div>
+ <h3>Research</h3>
+ <div id="logo-container">
+        <img id="logo-research" src="../assets/logo/logo_res.png" alt="logo research">
+</div>
+<h3>Sketching</h3>
+<div id="sketch-container">
+        <img id="sketch1" src="../assets/logo/sketch1.jpg" alt="logo sketch">
+        <img id="sketch2" src="../assets/logo/sketch2.jpg" alt="logo sketch">
+</div>
+<h3>Prototype</h3>
+<div id="logopro-container">
+        <img id="logopro1" src="../assets/logo/idea_final.png" alt="final logo">
+        <img id="logopro2" src="../assets/logo/idea-proto.png" alt="logo">
+</div>
+
+</div>
+</template>
+
+<style lang="scss">
+  #logo-container {
+    display: flex;
+    #logo-research {
+      width: 75vw;
+      margin-left: 5vw;
+      margin-top: 3vh;
+      margin-bottom: 10vh;
+      z-index: 1;
+    }
+  }
+
+  #sketch-container {
+      display: flex;
+      margin-left: 5vw;
+      margin-bottom: 7vh;
+      #sketch1 {
+          height: 70vh;
+          margin-right: 1vw;
+          z-index: 3;
+      }
+      #sketch2 {
+          height: 60vh;
+            z-index: 4;
+      }
+  }
+
+  #logopro-container {
+      display: flex;
+      margin-left: 5vw;
+      #logopro1 {
+          height: 50vh;
+          margin-right: 1vw;
+          z-index: 4;
+      }
+      #logopro2 {
+          height: 40vh;
+          z-index: 4;
+      }
+  }
+
+      .logo-desc {
+        margin-left: 5vw;
+        margin-right: 15vw;
+        text-align: justify;
+        color: gray;
+     }
+</style>

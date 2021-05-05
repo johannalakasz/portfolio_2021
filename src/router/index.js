@@ -32,6 +32,11 @@ const routes = [
     path: '/jealousy',
     name: 'Jealousy',
     component: () => import(/* webpackChunkName: "about" */ '../views/Jealousy.vue')
+  },
+  {
+    path: '/logo',
+    name: 'Logo',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Logo.vue')
   }
 ]
 

@@ -25,7 +25,7 @@
     //  height: 0.3vh;
       width: 2vw;
       margin-right: 2vw;
-      margin-top: 0.75vh;
+      margin-top: 0.5vh;
       @media only screen and (min-width: 900px){
         width: 1.5vw;
         margin-left: vw;

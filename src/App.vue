@@ -22,9 +22,10 @@
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://use.typekit.net/was0mii.css");
 
 #app {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Domus Light', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 //  text-align: center;
@@ -74,6 +75,16 @@ h2 {
   margin-top: 2vh;
 }
 
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 5vw;
+  margin-bottom: 1vh;
+  letter-spacing: 6px;
+  color: #f4f4f4;
+  margin-top: 2vh;
+}
+
 
 // #nav-container {
 //  display: flex;
@@ -84,7 +95,7 @@ h2 {
 
 #nav {
   // padding: 30px;
-  position: fixed;
+  position: absolute;
   right: 1.5vw;
   top: 2vh;
   @media only screen and (min-width: 900px){
@@ -111,6 +122,26 @@ h2 {
         font-size: 1.5vw;
         }    
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f2f2f2;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f5f5f5;
 }
 
 $color-bg: #1e1e1e;
@@ -144,7 +175,7 @@ $time-4: 200s;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 2;
 }
 
 // #page-bg {

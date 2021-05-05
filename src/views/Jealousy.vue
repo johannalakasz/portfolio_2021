@@ -13,8 +13,15 @@
     <br>This project focuses on the creation of a smart blouse, inspired by stage outfits previously worn by Monsta X and on a combination of feminine and masculine silhouettes. 
     </div>
     <div id="cr-container">
-        <img id="corset-research" src="../assets/corset/corset-research.png" alt="corset research">
+        <img id="corset-research" src="../assets/corset/corset-research-small.png" alt="corset research">
     </div>
+    <h3>Prototype</h3>
+    <div id="corset-container">
+            <img id="corset1" src="../assets/corset/corset1.jpg" alt="corset">
+    </div>
+
+
+
     </div>
 </template>
 
@@ -26,7 +33,14 @@
       margin-left: 5vw;
       margin-top: 7vh;
       margin-bottom: 10vh;
-      z-index: 1000;
+      z-index: 1;
+    }
+  }
+
+  #corset-container {
+    display: flex;
+    #corset1 {
+      width: 20%;
     }
   }
 </style>
