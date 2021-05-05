@@ -70,7 +70,7 @@
         margin-left: 5vw;
         width: 80vw;
         text-align: justify;
-        color: gray;
+        color: #a8a8a8;
      }
 
   #research-zine {
@@ -94,7 +94,7 @@
     margin-left: 5vw;
     width: 80vw;
     text-align: justify;
-    color: gray;
+    color:#a8a8a8;
     margin-top: 4vh;
     margin-bottom: 4vh;
   }

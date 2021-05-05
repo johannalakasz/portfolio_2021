@@ -73,6 +73,6 @@
         margin-left: 5vw;
         margin-right: 15vw;
         text-align: justify;
-        color: gray;
+        color: #a8a8a8;
      }
 </style>

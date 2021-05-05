@@ -113,7 +113,7 @@ h3 {
     color: #f4f4f4;;
 
     &.router-link-exact-active {
-      color: #42b983;  
+      color: #a8a8a8;  
     }
     @media only screen and (min-width: 900px){
         font-size: 2vw;
@@ -131,21 +131,21 @@ h3 {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: gray;
+  background: #f2f2f2;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #f2f2f2;
+  background: #a8a8a8;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #f5f5f5;
+  background: #1e1e1e;
 }
 
 $color-bg: #1e1e1e;
-$color-particle: #fff;
+$color-particle: #f2f2f2;
 $spacing: 2560px;
 $time-1: 60s;
 $time-2: 120s;
