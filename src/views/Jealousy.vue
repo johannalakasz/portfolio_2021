@@ -9,7 +9,7 @@
 
 
     <h2>Project description</h2>
-    <div class='cors-desc'>What initially was a 1st semester color theory assignment based on the theme of jealousy and personally the Jealousy music video by the band, Monsta X, has eventually turned into my first all-rounder fashion project. I’ve been interested in making my own clothes for a few years now, but only gotten seriously immersed in the fashion industry, the process of fashion design and sewing very recently. <br>
+    <div class='cors-desc'>What initially was a 1st semester color theory assignment based on the theme of jealousy and personally, the Jealousy music video by the band, Monsta X, has eventually turned into my first all-rounder fashion project. I’ve been interested in making my own clothes for a few years now, but only gotten seriously immersed in the fashion industry, the process of fashion design and sewing very recently. <br>
     <br>This project focuses on the creation of a smart blouse, inspired by stage outfits previously worn by band members and by a combination of feminine and masculine silhouettes. 
     </div>
     <div id="cr-container">

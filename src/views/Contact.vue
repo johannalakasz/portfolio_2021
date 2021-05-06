@@ -9,9 +9,9 @@
     </div>
     <div id="me">
         <img id="me-pic" src="../assets/me.jpg" alt="me">
-        <div class="me-desc">Hello, I'm Johanna Lakasz, a multimedia design student, from Business Academy of South West, who aims to bring her visions into reality in an aesthetically pleasing way.
-<br><br>I mainly work with graphics, layouts, logos and illustrations, but I also have experience in coding, as well as in photo and videography.
-<br><br>I am constantly trying to find the middle ground between creativity and a logical mindset. I work well individually and, in a team, as well and I tend to bring a detail-oriented approach and a general set of calmness, when it comes to groupwork.
+        <div class="me-desc">Hello, I'm Johanna Lakasz, a multimedia design student, from Business Academy South West, who aims to bring her visions into reality in an aesthetically pleasing way.
+<br><br>I mainly work with graphics, layouts, logos and illustrations, but I also have some experience in coding, as well as in photo and videography.
+<br><br>I am constantly trying to find the middle ground between creativity and a logical mindset. I work well individually and in a team, as well and I tend to bring a detail-oriented approach and a general set of calmness, when it comes to groupwork.
 <br><br>You can find my video CV <a href="https://youtu.be/dtM9YcD9fcE" target="_blank">here</a>        
         <h4>Contact</h4>
         <div class="contact">

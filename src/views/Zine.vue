@@ -19,7 +19,7 @@
       <img id="zineres" src="../assets/zine/res3.jpg" alt="zine research process on paper">
     </div>
     <div id='research-desc-zine'>For executing this project, I used the Double Diamond design thinking model, which started with a discovering process. I conducted research on the scene of a few published poetry books, searched for common themes in Danariah’s poems and looked at the market of limited-edition art magazines, which were mainly promoted on TikTok.<br><br>
-    As for the define step, I summarized my findings and decided which poems would be included in the book. I specified the choice of colors and two fonts, as well as the exact photos, that would be used. 
+    As for the Define step, I summarized my findings and decided which poems would be included in the book. I specified the choice of colors and two fonts, as well as the exact photos, that would be used. 
     <br></div>
     <h3>Prototype</h3>
     <div id='deliver-desc-zine'>
@@ -186,7 +186,7 @@ h5 {
       @media only screen and (min-width: 1000px) {
       height: 55vh;
       margin-left: 43.85vw;
-      margin-top: -60vh;
+      margin-top: -62vh;
       z-index: 103;  
       }
     }
