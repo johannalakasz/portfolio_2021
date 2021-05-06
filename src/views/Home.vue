@@ -67,7 +67,105 @@
     }
   }
 
+#home1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    width: 90vw;
+    #plantpack {
+    //  height: 20vh;
+      width: 90vw;
+      margin-bottom: 2vh;
+      z-index: 30;
+      @media only screen and (min-width: 1000px) {
+      width: 27vh;
+      margin-top: 13vh;
+      margin-bottom: 2vh;
+      margin-left: 5vw;
+      z-index: 30;  
+      }
+    }
+    #zineproject {
+      //  height: 20vh;
+      width: 90vw;
+      margin-bottom: 2vh;
+      z-index: 30;
+      @media only screen and (min-width: 1000px) {
+      width: auto;
+      height: 20vh;
+      margin-bottom: 2vh;
+      margin-top: 2vh;
+      margin-left: 2vw;
+      z-index: 30;  
+      }
+    }
+}
  
+#home2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-top: 0vh;
+    #homeillus {
+      width: 90vw;
+      margin-bottom: 2vh;
+      z-index: 30;
+      @media only screen and (min-width: 1000px) {
+      width: auto;
+      height: 30vh;
+      margin-bottom: 2vh;
+      z-index: 30;
+      margin-top:  -40vh;
+      margin-left: 90vh;
+      }
+    }
+    #shoot {
+      width: 90vw;
+      z-index: 30;
+      @media only screen and (min-width: 1000px) {
+      width: auto;
+      height: 30vh;
+      margin-bottom: 2vh;
+      z-index: 30;  
+      margin-top: -27vh;
+      margin-left: 10vw;
+      }
+    }
+}
+
+
+#home3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    #jelcorset {
+      width: 90vw;
+      z-index: 30;
+      margin-bottom: 2vh;
+      @media only screen and (min-width: 1000px) {
+      width: 30vh;
+      margin-bottom: 2vh;
+      z-index: 30; 
+      margin-left: 27.5vw;
+      margin-top: -26vh; 
+      }
+    }
+    #logodesign {
+      width: 90vw;
+      z-index: 30;
+      margin-bottom: 4vh;
+      @media only screen and (min-width: 1000px) {
+      width: auto;
+      height: 20vh;
+      margin-bottom: 2vh;
+      z-index: 30;  
+      margin-top: -14vh;
+      margin-left: 15vw;
+      }
+    }
+}
 
 
 
