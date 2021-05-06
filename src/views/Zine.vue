@@ -28,9 +28,9 @@
     <div id="prototype-zine-secondline">
       <img id="protozine3" src="../assets/zine/zineproto3.png" alt="zine prototype details">
     </div>
-    <h3>Shortened 30 pages long version</h3>
+    <h5>Shortened 30 pages long version</h5>
     <div id="zine-container">
-      <iframe id="zine-lap" src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=zkaza0qjiq" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+      <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=zkaza0qjiq&p=2" width="100%" height="800" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
     </div>
 
 
@@ -38,50 +38,49 @@
 </template>
 
 <style lang="scss">
+h5 {
+  font-family: 'Domus', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 5vw;
+  margin-bottom: 1vh;
+  color: #f4f4f4;
+  margin-top: 2vh;
+  position: relative;
+  z-index: 3;
+}
 
-  #zine-container {
-    margin-left: 7vw;
-    margin-right: 8vw;
-    z-index: 600;
-    position: relative;
-    left: -29vw;
-    top: auto;
-    z-index: 1;
-    @media only screen and (min-width: 1000px) {
-    margin-left: 7vw;
-    margin-right: 8vw;
-    z-index: 600;
-    position: relative;
-    left: -23vw;
-    top: auto;
-    z-index: 1;  
-    }
-    #zine-lap {
-    width: 100%; 
-    height: 700;
-    @media only screen and (min-width: 1000px) {
-    width: 100%; 
-    height: 700;  
-    }
-    }
+#zine-container {
+  margin-top: -32vh;
+  position: relative;
+  z-index: 1;
+  @media only screen and (min-width: 1000px) {
+  margin-top: 2vh;
+  margin-left: -37vw;  
   }
+}
+
 
   .desc-zine {
         margin-left: 5vw;
-        width: 80vw;
+        width: 87vw;
         text-align: justify;
         color: #a8a8a8;
+        @media only screen and (min-width: 1000px) {
+        width: 80vw;  
+        }
      }
 
   #research-zine {
     display: flex;
     margin-left: 5vw;
     margin-top: 4vh;
-
+    flex-wrap: wrap;
     
     #zineres {
-      height: 11.5vh;
+      height: 30vh;
       margin-right: 1vw;
+      margin-bottom: 2vh;
       z-index: 100;
       @media only screen and (min-width: 1000px) {
       height: 40vh;
@@ -92,27 +91,37 @@
   }
   #research-desc-zine {
     margin-left: 5vw;
+    width: 87vw;
+    text-align: justify;
+    color:#a8a8a8;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    @media only screen and (min-width: 1000px) {
+    margin-left: 5vw;
     width: 80vw;
     text-align: justify;
     color:#a8a8a8;
     margin-top: 4vh;
-    margin-bottom: 4vh;
+    margin-bottom: 4vh;  
+    }
   }
 
   #prototype-zine {
     margin-left: 5vw;
     display: flex;
+    flex-wrap: wrap;
     #protozine1 {
-      height: 30vh;
+      height: 53vh;
       z-index: 101;
+      margin-bottom: 2vh;
       @media only screen and (min-width: 1000px) {
       height: 117vh;
       z-index: 101;  
       }
     }
     #protozine2 {
-      height: 18vh;
-      margin-left: 1vw;
+      height: 30vh;
+      margin-left: 0vw;
       z-index:102;
       @media only screen and (min-width: 1000px) {
       height: 55vh;
@@ -126,10 +135,11 @@
     margin-left: 5vw;
     display: flex;
     margin-bottom: 7vh;
+    flex-wrap: wrap;
     #protozine3 {
-      height: 18vh;
-      margin-left: 39.25vw;
-      margin-top: -11.5vh;
+      height: 30vh;
+      margin-left: 0vw;
+      margin-top: 2vh;
       z-index: 103;
       @media only screen and (min-width: 1000px) {
       height: 55vh;
