@@ -11,16 +11,32 @@
 
     <div id="firstrow">
       <div id="home1">
+        <router-link to="/packaging">
         <img id="plantpack" src="../assets/home/plant.jpg" alt="package design">
+        </router-link>
+
+        <router-link to="/zine">
         <img id="zineproject" src="../assets/home/crying.jpg" alt="zine project">
+        </router-link>
       </div>
+
       <div id="home2">
+        <router-link to="/illustration">
         <img id="homeillus" src="../assets/home/anotherkind.jpg" alt="illustration">
+        </router-link>
+
+        <router-link to="/idphotos">
         <img id="shoot" src="../assets/home/luksi.jpg" alt="photoshoot">
+        </router-link>
       </div>
       <div id="home3">
+        <router-link to="/jealousy">
         <img id="jelcorset" src="../assets/home/corset3.jpg" alt="corset design">
+        </router-link>
+
+        <router-link to="/logo">
         <img id="logodesign" src="../assets/home/idea_final.png" alt="logo design">
+        </router-link>
       </div>
     </div>
 
@@ -77,13 +93,14 @@
     //  height: 20vh;
       width: 90vw;
       margin-bottom: 2vh;
-      z-index: 30;
+      z-index: 999;
+      position: relative;
       @media only screen and (min-width: 1000px) {
       width: 27vh;
       margin-top: 13vh;
       margin-bottom: 2vh;
       margin-left: 5vw;
-      z-index: 30;  
+      z-index: 999;  
       }
     }
     #zineproject {
@@ -91,9 +108,10 @@
       width: 90vw;
       margin-bottom: 2vh;
       z-index: 30;
+      position: relative;
       @media only screen and (min-width: 1000px) {
       width: auto;
-      height: 20vh;
+      height: 23vh;
       margin-bottom: 2vh;
       margin-top: 2vh;
       margin-left: 2vw;
@@ -106,23 +124,26 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: 5vw;
-    margin-top: 0vh;
+  //  margin-top: 0vh;
     #homeillus {
       width: 90vw;
       margin-bottom: 2vh;
       z-index: 30;
+      position: relative;
       @media only screen and (min-width: 1000px) {
       width: auto;
       height: 30vh;
       margin-bottom: 2vh;
       z-index: 30;
-      margin-top:  -40vh;
-      margin-left: 90vh;
+ //     margin-top:  -75vh;
+ top: -42vh;
+      margin-left: 48vw;
       }
     }
     #shoot {
       width: 90vw;
       z-index: 30;
+      position: relative;
       @media only screen and (min-width: 1000px) {
       width: auto;
       height: 30vh;
@@ -144,25 +165,29 @@
       width: 90vw;
       z-index: 30;
       margin-bottom: 2vh;
+      position: relative;
       @media only screen and (min-width: 1000px) {
       width: 30vh;
       margin-bottom: 2vh;
       z-index: 30; 
       margin-left: 27.5vw;
-      margin-top: -26vh; 
+//      margin-top: -56vh; 
+top: -50vh;
       }
     }
     #logodesign {
       width: 90vw;
       z-index: 30;
       margin-bottom: 4vh;
+      position: relative;
       @media only screen and (min-width: 1000px) {
       width: auto;
       height: 20vh;
       margin-bottom: 2vh;
       z-index: 30;  
-      margin-top: -14vh;
+//      margin-top: -44vh;
       margin-left: 15vw;
+      top: -42vh;
       }
     }
 }
