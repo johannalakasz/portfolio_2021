@@ -6,7 +6,12 @@
     </router-link>
       <h1>Packaging design</h1>
     </div>
-    <div class='plant-desc'>The concept behind this photoshoot was to take portraits of the models in a similar format as ID pictures and go further with them in a creative direction by trying different poses and adding small line art details.  </div>
+    <div class='plant-desc'>The sole aim of this project was to come up with and create package design for a physical product using the Design Thinking process.<br><br>
+    I’m following a girl on Instagram, who currently studies in Seoul, South Korea and she brought it to my attention, that cafés, which aren’t located in Western Europe or North America, most of the time lack the option to order a drink, which is made with dairy substitutes. As the vegan scene is broadening in Eastern Europe and Asia, too, the demand for drinks made with plant-based milk might increase as well.<br><br><br>
+    In the empathize phase of the project, I talked to a few of my vegan friends, who are living in Hungary and tried to grasp a more detailed and personal view on the supply of the cafés they visit. I came to the conclusion, that although there are bigger cafés chains, that offer to put plant-based milk in their drinks, their only available option is most of the time, soy milk. On the contrary, the most widely liked plant milk currently is almond milk, while oat milk is coming up in second, according to Food Dive, an online magazine, that focuses on upcoming news in the food industry.<br><br>
+    The solution came in the Define phase, which proposes plant-based milk to be distributed in small paper-boxed packages, sized exactly for a cup of latte.<br><br>
+    In the Ideate phase, my goal was to produce sketches and decide on a specific aesthetic for three different kinds of plant-based milk packages.</div>
+    <div style="margin:5vh;"></div>
 <!-- more text -->
 
     <h3>Sketches</h3>
@@ -15,7 +20,7 @@
     </div>
 
     <h3>Testing</h3>
-    <div class='plant-desc'>The concept behind this photoshoot was to take portraits of the models in a similar format as ID pictures and go further with them in a creative direction by trying different poses and adding small line art details.  </div>
+    <div class='plant-desc'>After finishing the prototypes, I printed out the designs to test mainly the colors and the overall feel of the packages.</div>
     <div id="plant-proto">
         <img id="plant-pro" src="../assets/plant/plantproto1.jpg" alt="package first prototype">
         <img id="plant-pro" src="../assets/plant/plantproto2.jpg" alt="package prototype">
@@ -23,7 +28,7 @@
     </div>
 
     <h3>Changes</h3>
-    <div class='plant-desc'>The concept behind this photoshoot was to take portraits of the models in a similar format as ID pictures and go further with them in a creative direction by trying different poses and adding small line art details.  </div>
+    <div class='plant-desc'>The Testing phase made me realise the need of adjusting the color scheme and with that in mind, I touched up and finished the prototypes.</div>
     <div id="color-container">
         <img id="color-research" src="../assets/plant/colors.png" alt="color consideration">
     </div>

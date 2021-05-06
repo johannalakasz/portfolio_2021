@@ -96,7 +96,7 @@ h3 {
 // }
 
 a {
-  color: #2c3e50;
+  color: #f2f2f2;
   font-weight: 500; 
   letter-spacing: 2px; 
   text-decoration: none;

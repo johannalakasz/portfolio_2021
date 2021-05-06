@@ -9,20 +9,21 @@
 
 
     <h2>Project description</h2>
-    <div class='cors-desc'>What initially was a 1st semester color theory assignment based on the theme of jealousy and specifically the Jealousy music video by the Korean band, Monsta X, has eventually turned into my first all-rounder fashion project. I’ve been interested in making my own clothes for a few years now, but only gotten seriously immersed in the fashion industry, the process of fashion design and sewing very recently. <br>
-    <br>This project focuses on the creation of a smart blouse, inspired by stage outfits previously worn by Monsta X and on a combination of feminine and masculine silhouettes. 
+    <div class='cors-desc'>What initially was a 1st semester color theory assignment based on the theme of jealousy and personally the Jealousy music video by the band, Monsta X, has eventually turned into my first all-rounder fashion project. I’ve been interested in making my own clothes for a few years now, but only gotten seriously immersed in the fashion industry, the process of fashion design and sewing very recently. <br>
+    <br>This project focuses on the creation of a smart blouse, inspired by stage outfits previously worn by band members and by a combination of feminine and masculine silhouettes. 
     </div>
     <div id="cr-container">
         <img id="corset-research" src="../assets/corset/corset-research-small.png" alt="corset research">
     </div>
-    <h3>Pattern</h3>
-    <div class='cors-desc'>What initially was a 1st semester color theory assignment based on the theme of jealousy and specifically the Jealousy music video by the Korean band, Monsta X, has eventually turned into my first all-rounder fashion project. I’ve been interested in making my own clothes for a few years now, but only gotten seriously immersed in the fashion industry, the process of fashion design and sewing very recently. <br>
+    <h3>Pattern (sketch)</h3>
+    <div class='cors-desc'>After discovering and diving more into the details of the influences for the project, I decided that I wanted to create a long bell-sleeved blouse, whose base would be a corset. I chose my fabric and made a fitted pattern. <br>
     </div>
     <div id="pattern-container">
             <img id="pattern" src="../assets/corset/pattern.png" alt="pattern">
     </div>
     <h3>Prototype</h3>
-    <div class='cors-desc'>What initially was a 1st semester color theory assignment based on the theme of jealousy and specifically the Jealousy music video by the Korean band, Monsta X, has eventually turned into my first all-rounder fashion project. I’ve been interested in making my own clothes for a few years now, but only gotten seriously immersed in the fashion industry, the process of fashion design and sewing very recently. <br>
+    <div class='cors-desc'>When the prototype came to life, I chose to expand the project and create a unique body-chain to go with the blouse. The jewellery piece is supposed to be worn under the corset. <br>
+    Special thanks to my friend for modeling for this project!
     </div>
     <div id="corset-container">
             <img id="corset1" src="../assets/corset/corset1.jpg" alt="corset result pic">

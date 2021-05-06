@@ -9,7 +9,8 @@
 
 
     <h2>Project description</h2>
-    <div class='desc'>The concept behind this photoshoot was to take portraits of the models in a similar format as ID pictures and go further with them in a creative direction by trying different poses and adding small line art details.  </div>
+    <div class='desc'>The concept behind this photoshoot was to take portraits of the models in a similar format as ID pictures and go further with them in a creative direction by trying different poses and adding small line art details.<br>
+    Special thanks to Léni and Laura for modeling!  </div>
     <div id="id-collage">
       <img id="flowwer" src="../assets/idphotos/flowwer.jpg" alt="jáccint">
       <img id="spaghetti" src="../assets/idphotos/spaghetti.jpg" alt="laura">

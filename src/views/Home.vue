@@ -48,6 +48,10 @@
 <style lang="scss">
   .home {
     overflow: hidden;
+    height: auto;
+    @media only screen and (min-width: 900px) {
+    height: 99vh;  
+    }
   }
 
   .top-container {
@@ -172,10 +176,10 @@
       margin-bottom: 2vh;
       position: relative;
       @media only screen and (min-width: 1000px) {
-      width: 30vh;
+      width: 28vh;
       margin-bottom: 2vh;
       z-index: 30; 
-      margin-left: 27.5vw;
+      margin-left: 25vw;
 //      margin-top: -56vh; 
       top: -50vh;
       }
@@ -191,7 +195,7 @@
       margin-bottom: 2vh;
       z-index: 30;  
 //      margin-top: -44vh;
-      margin-left: 15vw;
+      margin-left: 19vw;
       top: -42vh;
       }
     }
