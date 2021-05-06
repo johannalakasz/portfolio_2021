@@ -46,6 +46,10 @@
 
 
 <style lang="scss">
+  .home {
+    overflow: hidden;
+  }
+
   .top-container {
     display: flex;
     margin-top: 2vh;
@@ -161,6 +165,7 @@
     flex-wrap: wrap;
     margin-left: 5vw;
     margin-top: 2vh;
+//    margin-bottom: 40vh;
     #jelcorset {
       width: 90vw;
       z-index: 30;
@@ -172,7 +177,7 @@
       z-index: 30; 
       margin-left: 27.5vw;
 //      margin-top: -56vh; 
-top: -50vh;
+      top: -50vh;
       }
     }
     #logodesign {

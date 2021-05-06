@@ -47,7 +47,7 @@
             z-index: 12;
             margin-bottom: 7vh;
             @media only screen and (min-width: 1000px) {
-            height: 57vh;
+            height: 55vh;
             z-index: 12;
             }
         }

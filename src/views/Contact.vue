@@ -12,13 +12,16 @@
         <div class="me-desc">Hello, I'm Johanna Lakasz, a multimedia design student, from Business Academy of South West, who aims to bring her visions into reality in an aesthetically pleasing way.
 <br><br>I mainly work with graphics, layouts, logos and illustrations, but I also have experience in coding, as well as in photo and videography.
 <br><br>I am constantly trying to find the middle ground between creativity and a logical mindset. I work well individually and, in a team, as well and I tend to bring a detail-oriented approach and a general set of calmness, when it comes to groupwork.
-<br><br>You can find my video CV <a href="https://youtu.be/dtM9YcD9fcE" >here</a>        
+<br><br>You can find my video CV <a href="https://youtu.be/dtM9YcD9fcE" target="_blank">here</a>        
         <h4>Contact</h4>
         <div class="contact">
-            LinkedIn: Johanna Lakasz<br>
-            Mail: johannalakasz@gmail.com
+            LinkedIn: <a href="https://www.linkedin.com/in/johannalakasz/" target="_blank">Johanna Lakasz</a><br>
+            Mail: <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwQbBSqtMdWBLZDxfgCBxRLBtwTXbkhBCtrtjpDLXwFhWHDtHNfHWrgpsjQCBCmfJZRMGrN" target="_blank">johannalakasz@gmail.com</a><br>
+           CV: <a href="https://drive.google.com/file/d/1vX6rFpJpYKSha0jK0OevUcULofcYWKKv/view?usp=sharing" target="_blank">here</a>
         </div>
         </div>
+
+
     </div>
 
 
@@ -26,6 +29,7 @@
 </template>
 
 <style lang="scss">
+
     #me {
         display: flex;
         margin-left: 5vw;
