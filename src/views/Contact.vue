@@ -17,7 +17,7 @@
         <div class="contact">
             LinkedIn: <a href="https://www.linkedin.com/in/johannalakasz/" target="_blank">Johanna Lakasz</a><br>
             Mail: <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwQbBSqtMdWBLZDxfgCBxRLBtwTXbkhBCtrtjpDLXwFhWHDtHNfHWrgpsjQCBCmfJZRMGrN" target="_blank">johannalakasz@gmail.com</a><br>
-           CV: <a href="https://drive.google.com/file/d/1vX6rFpJpYKSha0jK0OevUcULofcYWKKv/view?usp=sharing" target="_blank">here</a>
+           CV: <a href="https://drive.google.com/file/d/1ZDbuUc3ig8IFDhB8S_hf2HBR3eGi1aBZ/view?usp=sharing" target="_blank">here</a>
         </div>
         </div>
 

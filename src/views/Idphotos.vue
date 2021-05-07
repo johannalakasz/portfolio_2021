@@ -108,10 +108,10 @@
         margin-left: -45vw;
         margin-top: -1vh;
         @media only screen and (min-width: 1000px) {
-        height: 60vh;
+        height: 50vh;
         z-index: 999;
         margin-left: 20.5vw;
-        margin-top: -20vh;  
+        margin-top: 0vh;  
         }
       }
     }
